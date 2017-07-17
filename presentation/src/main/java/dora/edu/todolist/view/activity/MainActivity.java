@@ -1,7 +1,9 @@
-package dora.edu.todolist;
+package dora.edu.todolist.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import dora.edu.todolist.R;
 
 public class MainActivity extends AppCompatActivity {
 
