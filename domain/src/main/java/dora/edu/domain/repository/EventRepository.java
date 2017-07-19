@@ -2,7 +2,7 @@ package dora.edu.domain.repository;
 
 import java.util.List;
 
-import dora.edu.domain.Event;
+import dora.edu.domain.MyEvent;
 import io.reactivex.Observable;
 
 /**
@@ -14,8 +14,10 @@ import io.reactivex.Observable;
  */
 public interface EventRepository {
 
-    Observable<Event> getEventById(String eventId);
+    Observable<MyEvent> getEventById(String eventId);
 
-    Observable<List<Event>> getEventList();
+    Observable<List<MyEvent>> getEventList();
+
+    Observable<MyEvent> addEvent(MyEvent event);
 
 }

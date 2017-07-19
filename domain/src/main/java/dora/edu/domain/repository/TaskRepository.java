@@ -2,7 +2,7 @@ package dora.edu.domain.repository;
 
 import java.util.List;
 
-import dora.edu.domain.Task;
+import dora.edu.domain.MyTask;
 import io.reactivex.Observable;
 
 /**
@@ -11,8 +11,8 @@ import io.reactivex.Observable;
 
 public interface TaskRepository {
 
-    Observable<Task> getTaskById(String taskId);
+    Observable<MyTask> getTaskById(String taskId);
 
-    Observable<List<Task>> getTaskList();
+    Observable<List<MyTask>> getTaskList();
 
 }
