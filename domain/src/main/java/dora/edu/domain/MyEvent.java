@@ -6,7 +6,7 @@ import java.util.Date;
  * Created by Dora on 6/4/2017.
  */
 
-public class Event {
+public class MyEvent {
 
     private String eventId;
     private String eventName;
@@ -16,7 +16,7 @@ public class Event {
     private Date startDate;
     private Date endDate;
 
-    public Event() {}
+    public MyEvent() {}
 
     public String getEventId() {
         return eventId;

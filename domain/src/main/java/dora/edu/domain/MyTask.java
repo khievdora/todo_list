@@ -6,7 +6,7 @@ import java.util.Date;
  * Created by Dora on 6/22/2017.
  */
 
-public class Task {
+public class MyTask {
 
     private String taskId;
     private String taskName;
@@ -16,7 +16,7 @@ public class Task {
     private Date startDate;
     private Date endDate;
 
-    public Task() {
+    public MyTask() {
     }
 
     public String getTaskId() {
